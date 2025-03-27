@@ -1,18 +1,9 @@
-name: multi-kernel
+name: myenv
 channels:
   - conda-forge
 dependencies:
   - python=3.9
   - jupyterlab
-
-  # Data-Science-Pakete (optional)
   - numpy
   - pandas
-
-  # R-Umgebung
-  - r-base
-  - r-irkernel  # ermöglicht R-Kernel in Jupyter
-  - r-essentials
-  - r-tidyverse  # falls du das R-Tidyverse brauchst
-
-  # (Optional) Weitere Pakete je nach Bedarf
+  # (Optional) R, Julia, etc.
